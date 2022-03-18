@@ -47,7 +47,7 @@ Note: For these comments to accurately export to the Javadoc comments, please ad
 
 #### D.  Add the following functionalities to the Main form:
 
-1.  The Parts pane
+The Parts pane
 
 * The Add button under the Parts TableView opens the Add Part form.
 
@@ -59,7 +59,7 @@ Note: For these comments to accurately export to the Javadoc comments, please ad
 
 * If the search field is set to empty, the table should be repopulated with all available parts.
 
-2.  The Products pane
+The Products pane
 
 * The Add button under the Products TableView opens the Add Product form.
 
@@ -74,13 +74,13 @@ Note: For these comments to accurately export to the Javadoc comments, please ad
 Note: A product’s associated parts can exist independent of current inventory of parts. You are not required to display sample data upon launching your application. You do not need to save your data to a database or a file; data for this application is nonpersistent and will reside in computer memory while in use.
 
 
-3.  Exit button
+Exit button
 * The Exit button closes the application.
 
 
 #### E.  Add the listed functionalities to the following parts forms:
 
-1.  The Add Part form
+The Add Part form
 * The In-House and Outsourced radio buttons switch the bottom label to the correct value (Machine ID or Company Name).
 * The application auto-generates a unique part ID. The part IDs can be, but do not need to be, contiguous.
 
@@ -92,17 +92,21 @@ Note: A product’s associated parts can exist independent of current inventory 
 
 * Canceling or exiting this form redirects users to the Main form.
 
-2.  The Modify Part form
+The Modify Part form
 * The text fields populate with the data from the chosen part.
+
 * The In-House and Outsourced radio buttons switch the bottom label to the correct value (Machine ID or Company Name) and swap In-House parts and Outsourced parts. When new objects need to be created after the Save button is clicked, the part ID should be retained.
+
 * The user can modify data values in the text fields sent from the Main form except the part ID.
+
 * After saving modifications to the part, the user is automatically redirected to the Main form.
+
 * Canceling or exiting this form redirects users to the Main form.
 
 
 #### F.  Add the following functionalities to the following product forms:
 
-1.  The Add Product form
+The Add Product form
 
 * The application auto-generates a unique product ID. The product IDs can be, but do not need to be, contiguous.
 
@@ -127,7 +131,7 @@ Note: A product’s associated parts can exist independent of current inventory 
 Note: When a product is deleted, so can its associated parts without affecting the part inventory. The Remove Associated Part button removes a selected part from the bottom table. (This dissociates or removes a part from a product.)
 
 
-2.  The Modify Product form
+The Modify Product form
 
 * The text fields populate with the data from the chosen product, and the bottom TableView populates with the associated parts.
 
@@ -156,13 +160,13 @@ Note: The Remove Associated Part button removes a selected part from the bottom 
 
 #### G.  Write code to implement input validation and logical error checks using a dialog box or message in the UI displaying a descriptive error message for each of the following circumstances:
 
-•   Min should be less than Max; and Inv should be between those two values.
+* Min should be less than Max; and Inv should be between those two values.
 
-•   The user should not delete a product that has a part associated with it.
+* The user should not delete a product that has a part associated with it.
 
-•   The application confirms the “Delete” and “Remove” actions.
+* The application confirms the “Delete” and “Remove” actions.
 
-•   The application will not crash when inappropriate user data is entered in the forms; instead, error messages should be generated.
+* The application will not crash when inappropriate user data is entered in the forms; instead, error messages should be generated.
 
 
 #### H.  Provide a folder containing Javadoc files that were generated from the IDE or via the command prompt from part B. In a comment above the main method header declaration, please specify where this folder is located.
