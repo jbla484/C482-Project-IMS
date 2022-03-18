@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="186.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="14.0" prefHeight="30.0" prefWidth="283.0" text="You've encountered an error.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="69.0" layoutY="66.0" prefHeight="54.0" prefWidth="255.0" text="To delete a part, you must first select a part to delete." textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="closeButton" layoutX="170.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" text="Close" />
+      <Line endX="393.9999694824219" endY="57.09998321533203" startX="2.441406286379788E-5" startY="57.099998474121094" />
+   </children>
+</AnchorPane>
